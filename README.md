@@ -21,7 +21,7 @@ while True:
         gpio.set(pin,gpio.HIGH)
     else:
         gpio.set(pin,gpio.LOW)
-    status = !status
+    status = not status
     sleep(1)
 
 ```
