@@ -3,7 +3,7 @@
 A _VERY_ early developmet module for handling gpio on the OrangePi using Python.
 
 Example:
-´´´
+```python
 # Import stuff
 import gpio
 from time import sleep
@@ -24,4 +24,4 @@ while True:
     status = !status
     sleep(1)
 
-´´´
+```
